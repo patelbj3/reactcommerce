@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1{
+ 
+  background: #2ecc71;
+  padding-left:20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: left;
+  vertical-align: middle;
+  margin-left:100px;
+  margin-bottom:-12px;
+  width:100px;
+}
+
+hr{
+	height:5px;background-color:#2ecc71;color:#2ecc71;
+	-webkit-margin-after: 0;
+}
+
+.counter{
+	background:white;
+	margin-right: 6px;
+    margin-left: 8px;
+	padding: 0 8px;
+}
+
+.cartImage{
+	margin-bottom:-5px;
+}
+
+.products{
+  display: block;
+  width: 1000px;
+  margin: 0 0 0 99px; 
+}
+
+.deleteButton{
+   color:white;
+   text-decoration:none;
+   float:right;
+   
+}
+
+.cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productsPage{
+	width:1200;
+	margin-top: -3px;
+}
+
+.cartPage{
+	width:200px;
+	    vertical-align: -webkit-baseline-middle;
+		background:#2ecc71;
+		padding-left: 18px;
+		padding-right: 10px;
+}
+
+.productPage{
+	width:800px;
+}
+
+
+.cartTable{
+	width:200px;
+}
+
+.shoppingCart{
+	color:#fff;
+}
+
+.product{
+ text-align: center;
+ border: 1px solid #2ecc71;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-right: 20px;
+ width: 212px;
+ display:inline-block;
+}
+
+button{
+  border:none;
+  background: none;
+  outline: none;
+}
+
+.textTransform{
+ text-transform: capitalize;
+ height: 30px;
+}
+
+.button{
+  font-family: "Helvetica", sans-serif;
+  color: #000;  
+  text-decoration: none;
+  text-shadow: 0 1px 3px hsla(152, 20%, 20%,0.2);
+  background: #2ecc71;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
+  transition: all 300ms;
+  padding: .5rem 2rem;
+  border-radius: 4px; 
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.button:hover{
+  transform: translate(0px, -2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.button:active{
+  transform: translate(0px, 2px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
+}
+
+.buttonPurchase{
+  font-family: "Helvetica", sans-serif;
+  color: #000;  
+  text-decoration: none;
+  text-shadow: 0 1px 3px hsla(152, 20%, 20%,0.2);
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
+  transition: all 300ms;
+  padding: .5rem .5rem;
+  border-radius: 4px; 
+  cursor: pointer;
+  margin: 1rem;
+}
